@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Geoloc test</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-flask"></i> la caverne des commerçants</h1>
+    </header>
+    
+    <main>
+        <form id="search" class="hide">
+            <input type="text" placeholder="rechercher un commerce près de votre prostion" id="business">
+            <input type="submit" value="chercher" id="submit">
+        </form>
+        <div id="mapid"></div>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
